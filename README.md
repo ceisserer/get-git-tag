@@ -1,6 +1,6 @@
 # get-git-tag
 
-This action gets tag name from commit that triggered the action and puts it into an environment variable GIT_TAG_NAME.  It will also export is as an output named "tag".
+This action gets tag name from commit that triggered the action and puts it into an environment variable GIT_TAG_NAME.  It will also export it as an output named "tag".
 
 You can also use optional parameters `tagRegex` and `tagRegexGroup` to extract a part from tag string.
 
